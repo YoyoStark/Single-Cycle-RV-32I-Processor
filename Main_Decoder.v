@@ -32,7 +32,7 @@ module MainDecoder (
                 ImmSrc = 2'b01;
                 ALUSrc= 1'b1;
                 MemWrite = 1'b1;
-                //resultSrc = 1'b1;
+                resultSrc = 1'bx;
                 branch = 1'b0;
                 ALUOp = 2'b00;
             end
@@ -40,12 +40,12 @@ module MainDecoder (
             7'b0110011:                 //R-type
             begin
                 RegWrite = 1'b1;
-            //    ImmSrc = 2'b00;
+                ImmSrc = 2'bxx;
                 ALUSrc= 1'b0;
                 MemWrite = 1'b0;
                 resultSrc = 1'b0;
                 branch = 1'b0;
-                ALUOp = 2'b00;
+                ALUOp = 2'b10;
             end
 
             7'b0010011:                 //I-type
@@ -65,7 +65,7 @@ module MainDecoder (
                 ImmSrc = 2'b10;
                 ALUSrc= 1'b0;
                 MemWrite = 1'b0;
-            //    resultSrc = 1'b1;
+                resultSrc = 1'bx;
                 branch = 1'b1;
                 ALUOp = 2'b01;
             end

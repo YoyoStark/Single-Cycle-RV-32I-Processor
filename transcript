@@ -12,7 +12,7 @@
 # 11 compiles, 0 failed with no errors.
 vsim work.RISC_V
 # vsim work.RISC_V 
-# Start time: 00:34:45 on Jun 30,2025
+# Start time: 00:51:38 on Jun 30,2025
 # Loading work.RISC_V
 # Loading work.ProgramCounter
 # Loading work.InstructionMemory
@@ -83,7 +83,6 @@ run
 run
 run
 run
-force -freeze sim:/RISC_V/reset 0 0
 run
 run
 run
@@ -112,21 +111,6 @@ run
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# End time: 00:36:45 on Jun 30,2025, Elapsed time: 0:02:00
+quit
+# End time: 00:52:58 on Jun 30,2025, Elapsed time: 0:01:20
 # Errors: 0, Warnings: 2
