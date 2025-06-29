@@ -1,0 +1,264 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Yahia Galal/Downloads/IEEE/Project
+vALU
+Z1 !s110 1751202195
+!i10b 1
+!s100 XUP?@KSYJ6fESm1>o=N9c3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@M_Hz=73DNUC3d^^G;zOW2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1750948788
+8ALU.v
+FALU.v
+!i122 51
+L0 1 36
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1751202195.000000
+!s107 testProgCount.v|RISC_V.v|RegisterFile.v|ProgCount.v|Main_Decoder.v|InstructionMemo.v|DataMemory.v|ControlUnit.v|ALU_Decoder.v|ALU.v|
+Z6 !s90 ALU.v|ALU_Decoder.v|ControlUnit.v|DataMemory.v|InstructionMemo.v|Main_Decoder.v|ProgCount.v|RegisterFile.v|RISC_V.v|testProgCount.v|
+!i113 1
+Z7 tCvgOpt 0
+n@a@l@u
+vALU_Decoder
+!s110 1751196517
+!i10b 1
+!s100 WZLJEU:kA?NBAc8aJ;KCM0
+R2
+IPLQTAULVm:eHZ=>?ozakm1
+R3
+R0
+w1751195234
+Z8 8ALU_Decoder.v
+Z9 FALU_Decoder.v
+!i122 44
+Z10 L0 1 30
+R4
+r1
+!s85 0
+31
+!s108 1751196517.000000
+!s107 testProgCount.v|RegisterFile.v|ProgCount.v|Main_Decoder.v|InstructionMemo.v|DataMemory.v|ControlUnit.v|ALU_Decoder.v|ALU.v|
+!s90 ALU.v|ALU_Decoder.v|ControlUnit.v|DataMemory.v|InstructionMemo.v|Main_Decoder.v|ProgCount.v|RegisterFile.v|testProgCount.v|
+!i113 1
+R7
+n@a@l@u_@decoder
+vALUDecoder
+R1
+!i10b 1
+!s100 Cb3<ie^o`R>WEUaN>?N7E2
+R2
+IGZiH;[:L;h8TZ2B=:;:FH3
+R3
+R0
+w1751197981
+R8
+R9
+!i122 51
+R10
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 testProgCount.v|RISC_V.v|RegisterFile.v|ProgCount.v|Main_Decoder.v|InstructionMemo.v|DataMemory.v|ControlUnit.v|ALU_Decoder.v|ALU.v|
+R6
+!i113 1
+R7
+n@a@l@u@decoder
+vControlUnit
+R1
+!i10b 1
+!s100 kM8U8X>MHa44aAWbKM:X62
+R2
+Ihe8bf6>YBeLIj=ABE960o0
+R3
+R0
+w1751201774
+8ControlUnit.v
+FControlUnit.v
+!i122 51
+L0 1 51
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@control@unit
+vDataMemory
+R1
+!i10b 1
+!s100 QhaN@TUHBkO3eSgoVnCBj0
+R2
+ISk4l[z5FAI1`FD07WOf[23
+R3
+R0
+w1751159464
+8DataMemory.v
+FDataMemory.v
+!i122 51
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@data@memory
+vInstructionMemory
+R1
+!i10b 1
+!s100 Czhl<W1mG@_H2mhSmA3c51
+R2
+I_US=:ilX2bHUh?Hki=bT;3
+R3
+R0
+w1751194967
+8InstructionMemo.v
+FInstructionMemo.v
+!i122 51
+L0 1 20
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@instruction@memory
+vMainDecoder
+R1
+!i10b 1
+!s100 z3gGzCDmGj@Hgb?AJi?0H1
+R2
+IeUU22FC4G8K1kGiCH`SEV2
+R3
+R0
+w1751196516
+8Main_Decoder.v
+FMain_Decoder.v
+!i122 51
+L0 1 85
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@main@decoder
+vProgramCounter
+R1
+!i10b 1
+!s100 HWEI5jFfTjgSb=eSk]j@H0
+R2
+I>I:6>fo:_Nk=c3G8l?RBb1
+R3
+R0
+w1751151026
+8ProgCount.v
+FProgCount.v
+!i122 51
+L0 1 35
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@program@counter
+vRegisterFile
+R1
+!i10b 1
+!s100 UUz2`@m_5]I8mZAj2:E3m2
+R2
+I<TP9okV`L5Dn`_1mczW=f1
+R3
+R0
+w1751151655
+8RegisterFile.v
+FRegisterFile.v
+!i122 51
+L0 1 40
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@register@file
+vRISC_V
+R1
+!i10b 1
+!s100 MQZ?A=E^J4z>V;BJ9`RP92
+R2
+I=^_=ObjAjLYICHWgY?j9d0
+R3
+R0
+w1751202167
+8RISC_V.v
+FRISC_V.v
+!i122 51
+L0 1 73
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@r@i@s@c_@v
+vtb_ProgramCounter
+R1
+!i10b 1
+!s100 aO=XoCIW[Om2WIKncc4k32
+R2
+I[ndH6<ZdIla0;k[dV97lR0
+R3
+R0
+w1750948530
+8testProgCount.v
+FtestProgCount.v
+!i122 51
+L0 3 56
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+ntb_@program@counter
