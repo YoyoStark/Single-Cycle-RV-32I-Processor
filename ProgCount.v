@@ -1,6 +1,5 @@
 module ProgramCounter
  (
-    input [31:0] PCnext,
     input [31:0] ImmExt,
     input PCSrc,
     input clk,
@@ -8,6 +7,11 @@ module ProgramCounter
     input load,
     output reg [31:0] PC
 );
+
+    wire [31:0] PCnext;
+    
+    assign PCnext = (PCSrc) ? PC + ImmExt : PC + 4;
+
 
 always @(posedge clk or negedge Areset)
 begin

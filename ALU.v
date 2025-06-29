@@ -10,8 +10,6 @@ module ALU
 
     always @(*)
     begin
-
-    ALUResult = 32'h00000000;  // Default assignment
         
         case (ALUControl)
             3'b000: ALUResult = SrcA + SrcB;            // Add

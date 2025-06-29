@@ -4,9 +4,9 @@ module RISC_V (
 );
 
     wire [31:0] SrcA, SrcB, instruction, MemoData, ALUresult, RD2, PC, ImmExt, result;
-    wire [2:0] ALUcontrol;
+    wire [2:0] ALUControl;
     wire [1:0] ImmSrc;
-    wire Zero, ALUSrc, sign , load , PCSrc, RegWrite, MemWrite, Resultsrc;
+    wire Zero, ALUSrc, sign , load , PCSrc, RegWrite, MemWrite, ResultSrc;
 
 
     assign SrcB = ALUSrc ? ImmExt : RD2; 
@@ -33,30 +33,30 @@ module RISC_V (
         .sign(sign),
         .RegWrite(RegWrite),
         .MemWrite(MemWrite),
-        .ResultSrc(Resultsrc),
+        .ResultSrc(ResultSrc),
         .ImmSrc(ImmSrc),
         .ALUSrc(ALUSrc),
-        .ALUcontrol(ALUcontrol),
+        .ALUControl(ALUControl),
         .PCSrc(PCSrc)
     );
 
     ALU alu (
         .SrcA(SrcA),
         .SrcB(SrcB),
-        .ALUControl(ALUcontrol),
+        .ALUControl(ALUControl),
         .Zero(Zero),
-        .signflag(sign),
-        .ALUResult(ALUresult)
+        .sign(sign),
+        .ALUresult(ALUresult)
     );
 
     RegisterFile reg_file (
-        .CLK(clk),
+        .clk(clk),
         .reset(reset),
-        .WE3(RegWrite),
+        .RegWrite(RegWrite),
         .A1(instruction[19:15]),
         .A2(instruction[24:20]),
         .A3(instruction[11:7]),
-        .WD3(Resultsrc ? MemoData : ALUresult),
+        .WD3(ResultSrc ? MemoData : ALUresult),
         .RD1(SrcA),
         .RD2(RD2)
     );
@@ -66,7 +66,7 @@ module RISC_V (
         .WE(MemWrite),
         .address(ALUresult),
         .WD(RD2),
-        .read_data(MemoData)
+        .RD(MemoData)
     );
 
     SignExtender sign_extender (

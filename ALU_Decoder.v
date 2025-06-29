@@ -12,7 +12,7 @@ begin
     case (ALUOp)
         2'b00: ALUcontrol = 3'b000; 
         2'b01: ALUcontrol = 3'b010; 
-        2'b10: begin
+        2'b10:
             case (funct3)
                 3'b000: ALUcontrol = (OP5 ==1'b1 && funct7 == 1'b1) ? 3'b010 : 3'b000; // law 11 sub 8er keda add
                 3'b001: ALUcontrol = 3'b001;                                     // Shift left   
@@ -22,7 +22,6 @@ begin
                 3'b111: ALUcontrol = 3'b111;                                     // AND
                 default: ALUcontrol = 3'b000;
             endcase
-        end
         default: ALUcontrol = 3'b000;
     endcase  
 end

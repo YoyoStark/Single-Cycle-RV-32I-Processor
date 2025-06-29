@@ -1,29 +1,48 @@
-# vsim tb_ProgramCounter 
-# Start time: 17:35:56 on Jun 26,2025
-# Loading work.tb_ProgramCounter
+# Compile of SignExt.v was successful.
+# Compile of RISC_V.v was successful.
+# Compile of ControlUnit.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Main_Decoder.v was successful.
+# Compile of InstructionMemo.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ProgCount.v was successful.
+# Compile of ALU.v was successful.
+# Compile of testProgCount.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.RISC_V
+# vsim work.RISC_V 
+# Start time: 00:34:45 on Jun 30,2025
+# Loading work.RISC_V
 # Loading work.ProgramCounter
+# Loading work.InstructionMemory
+# Loading work.ControlUnit
+# Loading work.MainDecoder
+# Loading work.ALUDecoder
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.DataMemory
+# Loading work.SignExtender
 add wave -position insertpoint  \
-sim:/tb_ProgramCounter/Areset \
-sim:/tb_ProgramCounter/clk \
-sim:/tb_ProgramCounter/ImmExt \
-sim:/tb_ProgramCounter/load \
-sim:/tb_ProgramCounter/PC \
-sim:/tb_ProgramCounter/PCnext \
-sim:/tb_ProgramCounter/PCSrc
+sim:/RISC_V/clk
+add wave -position insertpoint  \
+sim:/RISC_V/reset
+add wave -position insertpoint  \
+{sim:/RISC_V/data_memory/memory[0]} \
+{sim:/RISC_V/data_memory/memory[1]} \
+{sim:/RISC_V/data_memory/memory[2]} \
+{sim:/RISC_V/data_memory/memory[3]} \
+{sim:/RISC_V/data_memory/memory[4]} \
+{sim:/RISC_V/data_memory/memory[5]} \
+{sim:/RISC_V/data_memory/memory[6]} \
+{sim:/RISC_V/data_memory/memory[7]} \
+{sim:/RISC_V/data_memory/memory[8]} \
+{sim:/RISC_V/data_memory/memory[9]} \
+{sim:/RISC_V/data_memory/memory[10]}
+force -freeze sim:/RISC_V/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/RISC_V/reset 0 0
 run
-# Time	Reset	Load	PCSrc	PCnext	ImmExt	PC
-# 0	0	0	0	00000004	00000008	00000000
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
+force -freeze sim:/RISC_V/reset 1 0
 run
 run
 run
@@ -36,27 +55,78 @@ run
 run
 run
 run
-# 3000	1	0	0	00000004	00000008	00000000
-# 5000	0	0	0	00000004	00000008	00000000
 run
-# 15000	1	0	0	00000004	00000008	00000000
-# 20000	1	1	0	00000010	00000008	00000000
 run
-# 25000	1	1	0	00000010	00000008	00000010
-# 30000	1	1	1	00000010	00000004	00000010
 run
-# 35000	1	1	1	00000010	00000004	00000014
-# 40000	1	0	1	00000010	00000004	00000014
 run
-# 50000	1	1	0	00000020	00000004	00000014
 run
-# 55000	1	1	0	00000020	00000004	00000020
 run
-# ** Note: $finish    : testProgCount.v(55)
-#    Time: 70 ns  Iteration: 0  Instance: /tb_ProgramCounter
-# 1
-# Break in Module tb_ProgramCounter at testProgCount.v line 55
 run
-quit
-# End time: 17:40:00 on Jun 26,2025, Elapsed time: 0:04:04
-# Errors: 0, Warnings: 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/RISC_V/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 00:36:45 on Jun 30,2025, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 2

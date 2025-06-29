@@ -10,7 +10,7 @@ module InstructionMemory #(
     reg [Width-1:0] memory [0:Depth-1]; // 256 words of instruction memory
 
 initial begin
-    $readmemh("program.hex", memory);  // OR $readmemb for binary
+    $readmemh("program.txt", memory);
 end
 
     always @(*) begin

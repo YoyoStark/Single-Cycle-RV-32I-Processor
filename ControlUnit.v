@@ -4,12 +4,12 @@ module ControlUnit (
     input funct7,
     input zero,
     input sign,
-    output reg RegWrite,
-    output reg MemWrite,
-    output reg ResultSrc,
-    output reg [1:0] ImmSrc,
-    output reg ALUSrc,
-    output reg [2:0] ALUcontrol,
+    output  RegWrite,
+    output  MemWrite,
+    output  ResultSrc,
+    output  [1:0] ImmSrc,
+    output  ALUSrc,
+    output  [2:0] ALUcontrol,
     output reg PCSrc
 );
 
@@ -34,7 +34,7 @@ MainDecoder main_decoder (
     .ImmSrc(ImmSrc),
     .MemWrite(MemWrite),
     .RegWrite(RegWrite),
-    .ResultSrc(ResultSrc),
+    .resultSrc(ResultSrc),
     .ALUSrc(ALUSrc),
     .branch(branch)
 );

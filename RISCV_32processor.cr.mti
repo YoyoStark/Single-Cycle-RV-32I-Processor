@@ -1,0 +1,78 @@
+{C:/Users/Yahia Galal/Downloads/IEEE/Project/InstructionMemo.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/InstructionMemo.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/ControlUnit.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/ControlUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/RegisterFile.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/RegisterFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/testProgCount.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/testProgCount.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_ProgramCounter
+
+Top level modules:
+	tb_ProgramCounter
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/ProgCount.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/ProgCount.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/RISC_V.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/RISC_V.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISC_V
+
+Top level modules:
+	RISC_V
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/SignExt.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/SignExt.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SignExtender
+
+Top level modules:
+	SignExtender
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/Main_Decoder.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/Main_Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MainDecoder
+
+Top level modules:
+	MainDecoder
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU_Decoder.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU_Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUDecoder
+
+Top level modules:
+	ALUDecoder
+
+} {} {}} {C:/Users/Yahia Galal/Downloads/IEEE/Project/DataMemory.v} {1 {vlog -work work -stats=none {C:/Users/Yahia Galal/Downloads/IEEE/Project/DataMemory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}}
