@@ -17,13 +17,13 @@ always @(posedge clk)
 begin
     if (WE)
     begin
-        memory[address] <= WD;  // write data to memory
+        memory[address[31:2]] <= WD;  // write data to memory
     end
 end
 
 always @(*) 
 begin
-    read_data = memory[address]; // Read data 
+    read_data = memory[address[31:2]]; // Read data 
 end
 
 endmodule

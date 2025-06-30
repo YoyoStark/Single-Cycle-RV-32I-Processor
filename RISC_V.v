@@ -13,9 +13,9 @@ module RISC_V (
 
     ProgramCounter pc (
         .clk(clk),
-        .Areset(reset),
+        .reset(reset),
         .PCSrc(PCSrc),
-        .load(load),
+        .load(1'b1),
         .ImmExt(ImmExt),
         .PC(PC)
     );

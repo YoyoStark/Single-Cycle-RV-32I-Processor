@@ -29,7 +29,7 @@ This project implements a fully functional **single-cycle RISC-V (RV32I)** proce
 ├── ProgramCounter.v
 ├── RegisterFile.v
 ├── RiscV_Processor.v <-- Top-level module
-├── program.hex <-- Preloaded instruction memory
+├── program.txt <-- Preloaded instruction memory
 
 ![image](https://github.com/user-attachments/assets/a7034406-eee3-4b9b-a34f-f89aad3b9d40)
 
@@ -47,7 +47,7 @@ Make sure your `InstructionMemory` module includes:
 
 ```verilog
 initial begin
-    $readmemh("program.hex", memory);
+    $readmemh("program.txt", memory);
 end
 
 🤝 Contributing

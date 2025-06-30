@@ -33,8 +33,8 @@ begin
 end
 
 always @(*) begin
-   assign RD1 = regfile[A1];
-   assign RD2 = regfile[A2];
+    RD1 = regfile[A1];
+    RD2 = regfile[A2];
 end
 
 endmodule

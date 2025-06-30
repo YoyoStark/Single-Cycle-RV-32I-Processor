@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Yahia Galal/Downloads/IEEE/Project
 vALU
-Z1 !s110 1751233892
+Z1 !s110 1751239528
 !i10b 1
 !s100 `:`9;F6fhO680Fe3H;4Gg1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ R0
 w1751231466
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/ALU.v
-!i122 285
+!i122 327
 L0 1 34
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1751233892.000000
+Z5 !s108 1751239528.000000
 !s107 C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU.v|
 !i113 1
@@ -45,7 +45,7 @@ w1751195234
 8ALU_Decoder.v
 FALU_Decoder.v
 !i122 44
-L0 1 30
+Z8 L0 1 30
 R4
 r1
 !s85 0
@@ -57,7 +57,7 @@ r1
 R7
 n@a@l@u_@decoder
 vALUDecoder
-Z8 !s110 1751233891
+Z9 !s110 1751239527
 !i10b 1
 !s100 dnQ>ZZ8eSiQ`Q2omaac@]2
 R2
@@ -67,13 +67,13 @@ R0
 w1751233110
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU_Decoder.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/ALU_Decoder.v
-!i122 279
-Z9 L0 1 29
+!i122 321
+Z10 L0 1 29
 R4
 r1
 !s85 0
 31
-Z10 !s108 1751233891.000000
+Z11 !s108 1751239527.000000
 !s107 C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU_Decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yahia Galal/Downloads/IEEE/Project/ALU_Decoder.v|
 !i113 1
@@ -81,7 +81,7 @@ R6
 R7
 n@a@l@u@decoder
 vControlUnit
-R8
+R9
 !i10b 1
 !s100 JlAeFAEQdd7<3V;5?J6ga2
 R2
@@ -91,13 +91,13 @@ R0
 w1751208523
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/ControlUnit.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/ControlUnit.v
-!i122 278
+!i122 320
 L0 1 51
 R4
 r1
 !s85 0
 31
-R10
+R11
 !s107 C:/Users/Yahia Galal/Downloads/IEEE/Project/ControlUnit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yahia Galal/Downloads/IEEE/Project/ControlUnit.v|
 !i113 1
@@ -105,23 +105,23 @@ R6
 R7
 n@control@unit
 vDataMemory
-R1
+R9
 !i10b 1
-!s100 z[j0;l6LY7><0@P0<XYRE1
+!s100 QhaN@TUHBkO3eSgoVnCBj0
 R2
-I?MKgEA9zdccTTf>YI`ZG>0
+IN421dz_[J]R_nP55Mjz7O3
 R3
 R0
-w1751231560
+w1751239445
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/DataMemory.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/DataMemory.v
-!i122 282
-R9
+!i122 324
+R10
 R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/Yahia Galal/Downloads/IEEE/Project/DataMemory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yahia Galal/Downloads/IEEE/Project/DataMemory.v|
 !i113 1
@@ -129,7 +129,7 @@ R6
 R7
 n@data@memory
 vInstructionMemory
-R1
+R9
 !i10b 1
 !s100 YWI=YeFR?[1o_5XBKRW5@1
 R2
@@ -139,13 +139,13 @@ R0
 w1751233054
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/InstructionMemo.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/InstructionMemo.v
-!i122 281
+!i122 323
 L0 1 20
 R4
 r1
 !s85 0
 31
-R10
+R11
 !s107 C:/Users/Yahia Galal/Downloads/IEEE/Project/InstructionMemo.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yahia Galal/Downloads/IEEE/Project/InstructionMemo.v|
 !i113 1
@@ -153,7 +153,7 @@ R6
 R7
 n@instruction@memory
 vMainDecoder
-R8
+R9
 !i10b 1
 !s100 GoGgKWdb24f<RAIEk[e]32
 R2
@@ -163,13 +163,13 @@ R0
 w1751233861
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/Main_Decoder.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/Main_Decoder.v
-!i122 280
+!i122 322
 L0 1 85
 R4
 r1
 !s85 0
 31
-R10
+R11
 !s107 C:/Users/Yahia Galal/Downloads/IEEE/Project/Main_Decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yahia Galal/Downloads/IEEE/Project/Main_Decoder.v|
 !i113 1
@@ -179,15 +179,15 @@ n@main@decoder
 vProgramCounter
 R1
 !i10b 1
-!s100 VIeDDzBc4Ph1[iD<Ijga42
+!s100 RkGo14EH]>f<aKHkXh>E_3
 R2
-IVbSY`c<G3Bk;@B3[Ja``>0
+IZmmYA@;LIkID]k2YH?K:>1
 R3
 R0
-w1751232581
+w1751238522
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/ProgCount.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/ProgCount.v
-!i122 284
+!i122 326
 L0 1 39
 R4
 r1
@@ -203,21 +203,21 @@ n@program@counter
 vRegisterFile
 R1
 !i10b 1
-!s100 UUz2`@m_5]I8mZAj2:E3m2
+!s100 958gP7NhG[PBI0M<XgKmQ0
 R2
-IAFTB;_Nz0dmjKo5Da4HjP3
+IX4h<PQV4jYlknmidaRd?A2
 R3
 R0
-w1751151655
+w1751239490
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/RegisterFile.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/RegisterFile.v
-!i122 283
+!i122 325
 L0 1 40
 R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/Yahia Galal/Downloads/IEEE/Project/RegisterFile.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yahia Galal/Downloads/IEEE/Project/RegisterFile.v|
 !i113 1
@@ -225,31 +225,54 @@ R6
 R7
 n@register@file
 vRISC_V
-R8
+Z12 !s110 1751239526
 !i10b 1
-!s100 X`B274;ka@?fCZlke>B;l2
+!s100 fme>Q8Y2PCz?CJX=@E>lH1
 R2
-InNPK@DG<l8Sd2UdPEQnfQ1
+I3oIhDGe=R@dMfKgbDFioX3
 R3
 R0
-w1751232843
+w1751239243
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/RISC_V.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/RISC_V.v
-!i122 277
+!i122 319
 L0 1 79
 R4
 r1
 !s85 0
 31
-R10
+Z13 !s108 1751239526.000000
 !s107 C:/Users/Yahia Galal/Downloads/IEEE/Project/RISC_V.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yahia Galal/Downloads/IEEE/Project/RISC_V.v|
 !i113 1
 R6
 R7
 n@r@i@s@c_@v
-vSignExtender
+vRVTestbench
+!s110 1751239493
+!i10b 1
+!s100 j^IhFlWGgodRbnJ28CnMD1
+R2
+IQ0oea=;LlWjcYZla^60aU3
+R3
+R0
+w1751234970
+8RVTestbench.v
+FRVTestbench.v
+!i122 317
 R8
+R4
+r1
+!s85 0
+31
+!s108 1751239493.000000
+!s107 testProgCount.v|SignExt.v|RVTestbench.v|RISC_V.v|RegisterFile.v|ProgCount.v|Main_Decoder.v|InstructionMemo.v|DataMemory.v|ControlUnit.v|ALU_Decoder.v|ALU.v|
+!s90 ALU.v|ALU_Decoder.v|ControlUnit.v|DataMemory.v|InstructionMemo.v|Main_Decoder.v|ProgCount.v|RegisterFile.v|RISC_V.v|RVTestbench.v|SignExt.v|testProgCount.v|
+!i113 1
+R7
+n@r@v@testbench
+vSignExtender
+R12
 !i10b 1
 !s100 nznz:[;UXRZA[kTZfEXhi0
 R2
@@ -259,13 +282,13 @@ R0
 w1751205956
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/SignExt.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/SignExt.v
-!i122 276
+!i122 318
 L0 1 18
 R4
 r1
 !s85 0
 31
-R10
+R13
 !s107 C:/Users/Yahia Galal/Downloads/IEEE/Project/SignExt.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yahia Galal/Downloads/IEEE/Project/SignExt.v|
 !i113 1
@@ -280,10 +303,10 @@ R2
 I>6gHVjZ8H1b1k<6?B78hC1
 R3
 R0
-w1750948530
+w1751238677
 8C:/Users/Yahia Galal/Downloads/IEEE/Project/testProgCount.v
 FC:/Users/Yahia Galal/Downloads/IEEE/Project/testProgCount.v
-!i122 286
+!i122 328
 L0 3 56
 R4
 r1

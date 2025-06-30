@@ -3,7 +3,7 @@ module ProgramCounter
     input [31:0] ImmExt,
     input PCSrc,
     input clk,
-    input Areset,
+    input reset,
     input load,
     output reg [31:0] PC
 );
@@ -13,9 +13,9 @@ module ProgramCounter
     assign PCnext = (PCSrc) ? PC + ImmExt : PC + 4;
 
 
-always @(posedge clk or negedge Areset)
+always @(posedge clk or negedge reset)
 begin
-    if (!Areset)
+    if (!reset)
     begin    
         PC <= 32'h00000000;
     end
